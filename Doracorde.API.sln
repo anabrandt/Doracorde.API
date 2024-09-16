@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doracorde.API", "Doracorde.API.csproj", "{CDFD3A61-7CE8-49CA-8314-3A1AF8CD23B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doracorde.ORACLE", "Doracorde.ORACLE", "{00F60A57-99A4-4688-8797-52512EAA2410}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Context", "Context", "{7A627A7F-AB6A-46B3-B1DF-0BF6DF4D5782}"
+	ProjectSection(SolutionItems) = preProject
+		ApplicationDbContext.cs = ApplicationDbContext.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{1251D700-DF4B-411F-97E0-5D82765DDFD1}"
+	ProjectSection(SolutionItems) = preProject
+		Curso.cs = Curso.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{4EF4681E-04B7-499E-B016-82E5224535C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doracorde.Repository", "Doracorde.Repository", "{B9F3F6C7-3C38-4020-9011-0E48824AEC9D}"
+	ProjectSection(SolutionItems) = preProject
+		CursoRepository.cs = CursoRepository.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doracorde.Services", "Doracorde.Services", "{F0E651F1-0A49-49B2-BA21-C62E87A31E33}"
+	ProjectSection(SolutionItems) = preProject
+		CursoService.cs = CursoService.cs
+		ICursoService.cs = ICursoService.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{C5EE7911-3DD2-41C3-BA24-002AEB923217}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDFD3A61-7CE8-49CA-8314-3A1AF8CD23B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDFD3A61-7CE8-49CA-8314-3A1AF8CD23B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDFD3A61-7CE8-49CA-8314-3A1AF8CD23B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDFD3A61-7CE8-49CA-8314-3A1AF8CD23B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A627A7F-AB6A-46B3-B1DF-0BF6DF4D5782} = {00F60A57-99A4-4688-8797-52512EAA2410}
+		{1251D700-DF4B-411F-97E0-5D82765DDFD1} = {00F60A57-99A4-4688-8797-52512EAA2410}
+		{4EF4681E-04B7-499E-B016-82E5224535C4} = {00F60A57-99A4-4688-8797-52512EAA2410}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D68727C0-E47A-40B0-B5A6-A58AABCE1CF2}
+	EndGlobalSection
+EndGlobal
